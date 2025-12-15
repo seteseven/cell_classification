@@ -1,9 +1,25 @@
+## Classificação de células sanguíneas ##
+**Este repositório contém um modelo para classificação de células sanguíneas usando redes neurais.**
 
-Este repositório contém um modelo para classificação de células sanguíneas usando redes neurais. Ele inclui código e um notebook para treinar, testar e utilizar o modelo.
+O sangue é a parte liquida de um sistema que tem a função dupla de:
+1) Distribuir nutrientes e oxigenio para as celulas do corpo.
+2) Transportar o gás carbonico resultante do metabolismo para fora do corpo
 
-O objetivo é fornecer uma ferramenta simples para análise automática de imagens de células sanguíneas.
-Principais funcionalidades
-Treinamento de rede neural para classificação de células sanguíneas.
-Uso de um arquivo .ipynb com pipeline completo: carregamento de dados, pré-processamento, treinamento e avaliação.
-Armazenamento de modelo treinado (modelo_celas_sanguineas.keras) pronto para inferência.
-Estrutura do repositório
+
+O sangue é composto por diversas celulas, cada uma com sua função dentro do proprio sistema circulatorio e no restante do corpo. Dessa forma,a sanidade dessas celulas devem ser investigada quando realizamos exames de sangue.
+
+As estruturas que compoem o sangue sao de 3 tipos principais:
+
+
+- Vermelhas (__Hemácias__) – São os entregadores de oxigênio. Levam ar dos pulmões para o corpo todo. São vermelhas e em forma de disco. 
+
+- Brancas (__Leucócitos__) – São os soldados de defesa. Lutam contra vírus, bactérias e infecções. Quando você fica doente, elas aumentam em número.      
+
+Plaquetas – São os socorristas. Quando você se corta, elas correm para tapar o buraco e estancar o sangue, formando a casquinha.
+
+_Essas ultimas nao são celulas propriamente ditas, mas fatores de coaculação sanguenea e nao vão ser considerados nesse projeto._
+
+## 1. Parte ##
+__Modelo de classificação de celuas__
+
+
